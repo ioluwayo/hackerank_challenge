@@ -23,7 +23,7 @@ for i in range(n):
     # the premise is to identify the diagonal.
     # apparently in  a matrix, its just [0][0],[1][][2][2]...[n-1][n-1]
     right.append(a[i][i])
-    # the left diagonal tho is just the revers. but since so [1][n-1],[1][n-2]....[n-1][0]
+    # the left diagonal tho is just the revers. so [1][n-1],[1][n-2]....[n-1][0]
     left.append((a[i][n-(i+1)]))
 print (abs(sum(right)-sum(left)))
 # print the difference of the diagonal sum
