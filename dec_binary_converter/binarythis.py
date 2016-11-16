@@ -33,6 +33,6 @@ def countConsecOnes(arr):
     return max(count)
 
 
-# assume n i 439
+# assume n = 439
 n = 439
 print (countConsecOnes(decToBin(n)))
